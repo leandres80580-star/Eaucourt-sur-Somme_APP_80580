@@ -1895,8 +1895,8 @@ body{background:var(--blanc);font-family:'DM Sans',sans-serif;-webkit-font-smoot
 // ══════════════════════════════════════════════
 //  SUPABASE
 // ══════════════════════════════════════════════
-const SUPABASE_URL = 'https://jofeldziwqdswfhqqrcv.supabase.co';
-const SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImpvZmVsZHppd3Fkc3dmaHFxcmN2Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzM3NTQ0NzMsImV4cCI6MjA4OTMzMDQ3M30.PqkaS0TdQ_4wiZSX2lJuaPHr1zFyd9jovt9Ucd8IhQc';
+const SUPABASE_URL = 'https://uldxlmiijvskuwjgravv.supabase.co';
+const SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InVsZHhsbWlpanZza3V3amdyYXZ2Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzMwNzkyNzcsImV4cCI6MjA4ODY1NTI3N30.ObzPCHJ3c3eCdbu8oD36heFgq6oTVq9iiZ27irTi3zo';
 const sb = supabase.createClient(SUPABASE_URL, SUPABASE_KEY);
 
 // ── MULTI-COMMUNES · Phase 2 — détection automatique par URL ──
@@ -2323,7 +2323,7 @@ const dismissed = localStorage.getItem('install_dismissed');
 if(dismissed && Date.now() - parseInt(dismissed) > 7*24*60*60*1000){
   localStorage.removeItem('install_dismissed');
 }
-const ONESIGNAL_APP_ID = '100c8cdc-6147-4f6b-b29d-869dd5a4af5c';
+const ONESIGNAL_APP_ID = '1646b1af-16d1-4a41-bc18-2a62594075d0';
 
 async function initPushNotifications(){
   window.OneSignalDeferred = window.OneSignalDeferred || [];
